@@ -1,0 +1,25 @@
+*{
+    font-family: arial;
+}
+article{
+    border: 1.5px solid gray;
+    width: 30%;
+}
+article > header > img{
+    width: 100%;
+    height: 100%;
+}
+
+
+section{
+    border:1.5px solid gray;
+    padding-left:10px ;
+    padding-right:10px ;
+}
+footer{
+    border: inherit;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
