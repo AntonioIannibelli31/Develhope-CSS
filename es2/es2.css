@@ -1,0 +1,22 @@
+*{
+    color:white;
+}
+nav{
+    background-color: rgb(71, 69, 69);
+    width: 40%;
+    padding-top: 2ch;
+    padding-bottom: 2ch;
+}
+.button{
+    background-color: green;
+    color: white;
+}
+.button:hover{
+    color: black;
+}
+.dropdown{
+    color: black;
+}
+.link{
+    text-decoration: none;
+}
