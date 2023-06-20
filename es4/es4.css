@@ -1,0 +1,11 @@
+section{
+    display:flex;
+    flex-direction: row;
+}
+.links{
+    color: #2b2b2b;
+    list-style: none;
+}
+.liks:hover{
+    color: #2b2bb2;
+}
