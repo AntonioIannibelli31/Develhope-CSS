@@ -1,14 +1,25 @@
-*{
+body{
     color: white;
     background-color: rgba(133, 106, 106, 0.705);
 }
-main{
+nav{
     border: 2px solid aqua;
     display:flex;
     flex-direction: column;
     width: 200px;
     height: 100ch;
     align-items: flex-start;
+    gap: 15px;
+    
+}
+.links li{
+    text-decoration: none;
+    list-style: none;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 a{
     color: #2b2b2b;
@@ -18,4 +29,13 @@ a{
 a:hover{
     color: #2b2bb2;
     transition: 0.3s;
+}
+img{
+    width: 75px;
+}
+.avatar{
+    align-self: center;
+}
+nav > img{
+    width:150px;
 }
