@@ -1,0 +1,83 @@
+main{
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    width: 300px;
+    border: 1px solid black;
+    grid-template-areas: 
+    "initial initial initial initial"
+    "plus minus molt div"
+    "seven eight nine equal"
+    "for five six equal"
+    "one two three equal"
+    "zero dot clear equal";
+    
+}
+div{
+    border: 1px solid black;
+}
+.initial{
+    grid-area: 1/ 1 /2/ 5;
+    text-align: end;
+    background-color: rgb(77, 77, 148);
+    color: white;
+    
+}
+.plus{
+    grid-area: plus;
+    background-color: rgba(24, 144, 243, 0.719);
+    
+}
+.minus{
+    grid-area:minus ;
+    background-color: rgba(24, 144, 243, 0.719);
+}
+.molt{
+    grid-area: molt;
+    background-color: rgba(24, 144, 243, 0.719);
+}
+.div{
+    grid-area: div;
+    background-color: rgba(24, 144, 243, 0.719);
+}
+.seven{
+    grid-area:seven ;
+}
+.eight{
+    grid-area:eight ;
+}
+.nine{
+    grid-area:nine ;
+}
+.for{
+    grid-area:for ;
+}
+.five{
+    grid-area:five ;
+}
+.six{
+    grid-area:six ;
+}
+.one{
+    grid-area:one ;
+}
+.two{
+    grid-area:two ;
+}
+.three{
+    grid-area:three ;
+}
+.zero{
+    grid-area:zero ;
+}
+.dot{
+    grid-area:dot ;
+}
+.clear{
+    grid-area:clear;
+}
+.equal{
+    grid-area: equal;
+    text-align: center;
+    background-color: rgba(245, 94, 94, 0.863);
+}
