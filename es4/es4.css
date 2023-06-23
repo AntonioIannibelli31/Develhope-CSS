@@ -2,15 +2,12 @@ body{
     color: white;
     background-color: rgba(133, 106, 106, 0.705);
 }
-nav{
-    border: 2px solid aqua;
+aside{
+    width:200px;
+    height: 100vh;  
+    background-color: azure;
     display:flex;
     flex-direction: column;
-    width: 200px;
-    height: 100ch;
-    align-items: flex-start;
-    gap: 15px;
-    
 }
 .links li{
     text-decoration: none;
@@ -20,6 +17,8 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 15px;
+    flex: 1;
+    
 }
 a{
     color: #2b2b2b;
@@ -34,8 +33,13 @@ img{
     width: 75px;
 }
 .avatar{
-    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 nav > img{
     width:150px;
+}
+p{
+    color: #2b2bb2;
 }
