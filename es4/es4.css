@@ -13,13 +13,6 @@ aside{
     text-decoration: none;
     list-style: none;
 }
-.links{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    flex: 1;
-    
-}
 a{
     color: #2b2b2b;
     list-style: none;
@@ -32,8 +25,12 @@ a:hover{
 img{
     width: 75px;
 }
+.links{
+    flex: 1;
+}
 .avatar{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
